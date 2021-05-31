@@ -1,0 +1,4 @@
+Mô hình tổng quát:
+	- Layer đầu tiên là input layer, các layer ở giữa được gọi là hidden layer, layer cuối cùng được gọi là output layer. Mỗi layer bao gồm nhiều node
+	- Tổng số layer trong mô hình được quy ước là số layer-1 (không tính input layer)
+	- Mỗi node trong hidden layer và output layer liên kết với tất cả các node ở layer trước đó với các hệ số w riêng, mỗi node có 1 hệ số bias b riêng, diễn ra 2 bước: tính tổng linear và áp dụng activation function 
